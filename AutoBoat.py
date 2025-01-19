@@ -7,8 +7,8 @@ from ts import *
 import headers as hd
 from actions import *
 
-MAIL = "andreojules@gmail.com"
-MDP = "cukqep-fipju8-puwcyR"
+MAIL = ""
+MDP = ""
 
 RACE_ID = 654
 LEG_NUM = 1
