@@ -6,8 +6,8 @@ import requests
 import csv
 
 def parsee():
-    input_file = r"C:\Users\andre\Downloads\VRZEN.csv"
-    output_file = r"C:\Users\andre\Documents\caps.csv"
+    input_file = "VRZEN.csv"
+    output_file = "caps.csv"
 
     with open(input_file, mode='r', encoding='utf-8') as infile, open(output_file, mode='w', newline='', encoding='utf-8') as outfile:
         reader = csv.DictReader(infile, delimiter=';')
